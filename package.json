@@ -1,0 +1,28 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Mock server for reactJS front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf index-dist",
+    "build": "babel index.js -d index-dist && cp properties.json index-dist/",
+    "serve" : "node index-dist/",
+    "start": "npm run clean && npm run build && npm run serve"
+  },
+  "keywords": [
+    "mock",
+    "back-end"
+  ],
+  "author": "bala@stackbubble.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
+  }
+}
