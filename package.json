@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf index-dist",
     "build": "babel index.js -d index-dist && cp properties.json index-dist/",
-    "serve" : "node index-dist/",
+    "serve": "node index-dist/",
     "start": "npm run clean && npm run build && npm run serve"
   },
   "keywords": [
@@ -17,6 +17,7 @@
   "author": "bala@stackbubble.com",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2"
   },

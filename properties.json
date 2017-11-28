@@ -1,14 +1,1 @@
-[
-	{
-		"name" : "Hotel Park"
-	},
-	{
-		"name" : "Leela Palace"
-	},
-	{
-		"name" : "Hotel Fortel"
-	},
-	{
-		"name" : "Chola Sheraton"
-	}
-]
+[{"id":"1","name":"Hotel Park"},{"id":"3","name":"Hotel Fortel"},{"id":"4","name":"Chola Sheraton"},{"id":"5","name":"New hotel"}]
